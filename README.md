@@ -15,8 +15,6 @@ This recipes sets up and configures [gatsby-plugin-chakra-ui](https://www.gatsby
 
 # This recipe:
 
----
-
 ## Installs necessary NPM packages
 
 - @chakra-ui/core
