@@ -4,7 +4,20 @@
 
 This recipes sets up and configures [gatsby-plugin-chakra-ui](https://www.gatsbyjs.com/plugins/gatsby-plugin-chakra-ui/) by installing it's dependencies and shadowing `theme.js` file to create a custom theme.
 
+### Env dependencies
+
+- node
+- npm
+- gatsby
+- gatsby-cli
+
+### Usage
+
+`gatsby recipes https://raw.githubusercontent.com/shoxton/gatsby-recipe-chakra-ui/master/chakra-ui.mdx`
+
 ---
+
+# This recipe:
 
 ## Installs necessary NPM packages
 
@@ -23,9 +36,9 @@ This step implements the [`<GatsbyPlugin>`](https://github.com/gatsbyjs/gatsby/b
 
 ---
 
-## Shadows gatsby-plugin-chakra-ui `theme.js` 
+## Creates gatsby-plugin-chakra-ui `theme.js`
 
-By shadowing the `theme.js` file, you can create your own global styles.
+By creating the `theme.js` file, you can create your own global styles.
 
 This step implements the [`<GatsbyShadowFile>`](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-recipes/README.md#gatsbyshadowfile)
 
