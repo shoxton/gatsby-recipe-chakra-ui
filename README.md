@@ -11,6 +11,10 @@ This recipes sets up and configures [gatsby-plugin-chakra-ui](https://www.gatsby
 - gatsby
 - gatsby-cli
 
+### Usage
+
+`gatsby recipes https://raw.githubusercontent.com/shoxton/gatsby-recipe-chakra-ui/master/chakra-ui.mdx`
+
 ---
 
 # This recipe:
