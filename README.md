@@ -36,9 +36,9 @@ This step implements the [`<GatsbyPlugin>`](https://github.com/gatsbyjs/gatsby/b
 
 ---
 
-## Shadows gatsby-plugin-chakra-ui `theme.js` 
+## Creates gatsby-plugin-chakra-ui `theme.js`
 
-By shadowing the `theme.js` file, you can create your own global styles.
+By creating the `theme.js` file, you can create your own global styles.
 
 This step implements the [`<GatsbyShadowFile>`](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-recipes/README.md#gatsbyshadowfile)
 
