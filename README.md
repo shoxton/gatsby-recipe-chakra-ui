@@ -21,6 +21,10 @@ This recipes sets up and configures [gatsby-plugin-chakra-ui](https://www.gatsby
 
 ## Installs necessary NPM packages
 
+
+- @emotion/core
+- @emotion/styled
+- emotion-theming
 - @chakra-ui/core
 - gatsby-plugin-chakra-ui
 
