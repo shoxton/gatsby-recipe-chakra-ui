@@ -2,36 +2,38 @@
 
 [Chakra UI](https://chakra-ui.com/) provides a set of accessible, reusable, and composable React components that make it super easy to create websites and apps.
 
-This recipes sets up and configures [gatsby-plugin-chakra-ui](https://www.gatsbyjs.com/plugins/gatsby-plugin-chakra-ui/) by installing it's dependencies and shadowing `theme.js` file to create a custom theme.
+This recipes sets up and configures [@chakra-ui/gatsby-plugin](https://www.gatsbyjs.com/plugins/@chakra-ui/gatsby-plugin/) by installing it's dependencies and shadowing `theme.js` file to create a custom theme.
 
 ---
 
 ## Installs necessary NPM packages
 
-<NPMPackage name="@emotion/core" />
+<NPMPackage name="@emotion/react" />
 <NPMPackage name="@emotion/styled" />
-<NPMPackage name="emotion-theming" />
-<NPMPackage name="@chakra-ui/core" />
-<NPMPackage name="gatsby-plugin-chakra-ui" />
+<NPMPackage name="@chakra-ui/react" />
+<NPMPackage name="framer-motion" />
+<NPMPackage name="@chakra-ui/gatsby-plugin />
 
 ---
 
-## Installs `gatsby-plugin-chakra-ui` in `gatsby-config.js`
+## Installs `@chakra-ui/gatsby-plugin` in `gatsby-config.js`
 
-<GatsbyPlugin name="gatsby-plugin-chakra-ui" />
+<GatsbyPlugin name="@chakra-ui/gatsby-plugin" />
 
 ---
 
-## Creates gatsby-plugin-chakra-ui `theme.js` file so you can customize your own global styles
+## Shadows @chakra-ui/gatsby-plugin `theme.js` file so you can create a custom theme
 
-<File
-  path="src/gatsby-plugin-chakra-ui/theme.js"
-  content="https://raw.githubusercontent.com/shoxton/gatsby-recipe-chakra-ui/master/theme.js"
+<GatsbyShadowFile 
+  theme="@chakra-ui/gatsby-plugin" 
+  path="src/theme.js" 
 />
+
+- [Learn how to extend theme defaults with your custom theme](https://chakra-ui.com/docs/theming/customize-theme)
 
 ---
 
 ## Once you've installed this recipe, you're ready to get started!
 
-- [Learn more about plugin options](https://github.com/chakra-ui/chakra-ui/tree/develop/tooling/gatsby-plugin-chakra-ui#plugin-options)
+- [Learn more about plugin options](https://chakra-ui.com/guides/integrations/with-gatsby)
 - [Read more about Chakra UI on the official Chakra docs site](https://chakra-ui.com/getting-started)
