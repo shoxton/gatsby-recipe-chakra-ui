@@ -26,7 +26,7 @@ This recipes sets up and configures [@chakra-ui/gatsby-plugin](https://www.gatsb
 - @emotion/styled
 - framer-motion
 - @chakra-ui/react
-- gatsby-plugin-chakra-ui
+- @chakra-ui/gatsby-plugin
 
 This step implements the [`<NPMPackage>`](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-recipes/README.md#npmpackage) API.
 
